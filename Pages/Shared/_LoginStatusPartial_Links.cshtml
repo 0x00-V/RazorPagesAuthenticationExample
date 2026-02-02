@@ -1,0 +1,6 @@
+﻿@if(User.HasClaim("Role", "Administrator"))
+    {
+        <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="" asp-page="/AdminPanel">Admin Panel</a>
+    </li>
+    }
